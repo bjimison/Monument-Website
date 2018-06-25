@@ -318,6 +318,7 @@ transform: skew(-25deg);
   }
 }
 
+
 @media only screen and (max-width: 560px) {
   /*.container {
     display: block;
