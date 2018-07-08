@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+footer {
+  background-color: #CDF3F6;
+  }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  background: url('../images/blog_header_bg.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 25em;
+}
+

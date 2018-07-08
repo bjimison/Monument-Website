@@ -148,13 +148,13 @@ div.two_inputs {
   width: 50%;
 }
 
-.top {
+/*.top {*/
   /*flex-direction: row;*/
   /*width: 49%;*/
-  border: 0.2em solid #44545E;
-  margin: 0.2em 0 0.2em 0;
-}
-
+  /*border: 0.2em solid #44545E;*/
+  /*margin: 0.2em 0 0.2em 0;*/
+/*}*/
+/*
 form h4 {
   justify-content: center;
 }
@@ -178,11 +178,8 @@ form.question {
   display: flex;
   flex-direction: column;
   margin: 1.3em 0;
-}
+}*/
 
-.center {
-  text-align: center;
-}
 
 .two_inputs {
   align-self: center;
@@ -217,6 +214,7 @@ form {
 .center {
   margin-left: 4em;
   margin-right: 4em;
+  text-align: center;
 }
 
 footer form input:nth-of-type(2) {

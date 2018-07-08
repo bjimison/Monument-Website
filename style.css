@@ -3,6 +3,19 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.error {
+  /*border: 2px solid #ED5254;*/
+  border: 2px solid red;
+  color: red;
+  display: none;
+}
+
+.error-message {
+  display: none !important;
+  color: red;
+  font-size: 0.8em;
+}
+
 .clearfix:after {
   display: table;
   clear: both;
@@ -64,10 +77,8 @@ footer {
   /*display: flex;
   justify-content: center;*/
   text-align: center;
-  padding-top: 0.6em;
+  padding: 0.6em;
   margin-bottom: 0em;
-  left: 0%;
-  right: 0;
 }
 
 footer div:first-of-type {
@@ -83,7 +94,6 @@ footer a {
   font-weight: bold;
   opacity: 0.7;
   color: #44545E;
-
 }
 
 .copyright {
@@ -95,19 +105,14 @@ footer a {
   padding-top: 1.2em;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-}
-
-.container div {
-  margin: 0 3rem;
-}
-
-.container img {
-  width: 15rem;
 }
 
 article {
@@ -131,34 +136,16 @@ aside a {
 aside img {
   margin-bottom: 2em;
 }
-
+/*
 p {
   opacity: 0.5;
   font-family: 'Lato', sans-serif;
-}
+}*/
 
 /*#head_image {
   background-image: #000000 url(images/home_header_bg.jpg) 100% 100% no-repeat;
   /*position: relative;*/
 /*}*/
-
-div.two_inputs {
-  width: 100%;
-  display: flex;
-  /*flex-direction: space-between;*/
-}
-
-.two_inputs input {
-  width: 50%;
-}
-
-.top {
-  /*flex-direction: row;*/
-  /*width: 49%;*/
-  border: 0.2em solid #44545E;
-  margin: 0.2em 0 0.2em 0;
-}
-
 form h4 {
   justify-content: center;
 }
@@ -172,60 +159,15 @@ form.question {
   flex-direction: row;
 }
 
-.comments {
-  display: flex;
-  flex-direction: row;
-}
-
-.question {
-  max-width: 48em;
-  display: flex;
-  flex-direction: column;
-  margin: 1.3em 0;
-}
-
-.center {
-  text-align: center;
-}
-
-.two_inputs {
-  align-self: center;
-  width: 100%;
-  text-align: center;
-}
-
-textarea {
-  width: 100%;
-  border: 0.2em solid #44545E;
-  display: block;
-}
-
-form button {
-  width: 100%;
-  border: 0.2em solid #44545E;
-}
-
 footer button {
   width: 15%;
   padding: 0.6em 1.5em;
-}
-
-footer {
-  width: cover;
-}
-
-form h4 {
-  text-align: center;
 }
 
 form {
   margin-bottom: 1.3em;
 }
 
-.center {
-  margin-left: 4em;
-  margin-right: 4em;
-}
 
 footer form input:nth-of-type(2) {
   border: 0.1em solid black;
